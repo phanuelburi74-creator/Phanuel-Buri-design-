@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="PHANUEL BURI DESIGN — Professional photo editing, graphic design, flyers, logos, music covers and creative design services in Cameroon.">
+<title>PHANUEL BURI DESIGN | Creative Studio</title>
+<style>
+:root{--bg:#080808;--card:#121212;--text:#f7f7f7;--muted:#aaa;--accent:#d71920;--accent2:#ff3b30;--line:#292929}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,Helvetica,sans-serif;background:var(--bg);color:var(--text);line-height:1.6}
+a{color:inherit;text-decoration:none}
+.container{width:min(1120px,92%);margin:auto}
+header{position:sticky;top:0;z-index:20;background:rgba(8,8,8,.9);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.nav{height:72px;display:flex;align-items:center;justify-content:space-between}
+.logo{font-weight:900;letter-spacing:1px}.logo span{color:var(--accent)}
+nav{display:flex;gap:24px;align-items:center}nav a{font-size:14px;color:#ddd}nav a:hover{color:#fff}
+.btn{display:inline-block;background:var(--accent);padding:13px 20px;border-radius:8px;font-weight:800;transition:.2s}.btn:hover{transform:translateY(-2px);background:var(--accent2)}
+.hero{min-height:680px;display:flex;align-items:center;position:relative;overflow:hidden;background:radial-gradient(circle at 80% 35%,#451015 0,#18090a 22%,transparent 48%),linear-gradient(135deg,#090909,#111)}
+.hero:after{content:"";position:absolute;inset:0;background:linear-gradient(120deg,transparent 45%,rgba(215,25,32,.12),transparent 65%);pointer-events:none}
+.hero-content{position:relative;z-index:2;max-width:720px;padding:90px 0}
+.kicker{color:#ff5a5f;font-weight:900;letter-spacing:3px;font-size:13px;margin-bottom:18px}
+h1{font-size:clamp(44px,8vw,88px);line-height:.95;letter-spacing:-3px;margin-bottom:24px}
+h1 span{color:var(--accent)}
+.hero p{font-size:19px;color:#c9c9c9;max-width:650px;margin-bottom:30px}
+.actions{display:flex;gap:12px;flex-wrap:wrap}.btn.secondary{background:transparent;border:1px solid #555}
+section{padding:90px 0}.section-head{margin-bottom:40px}.section-head h2{font-size:42px;line-height:1.05}.section-head p{color:var(--muted);margin-top:10px}
+.grid{display:grid;grid-template-columns:repeat(3,1fr);gap:18px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:28px}
+.icon{font-size:32px;margin-bottom:15px}.card h3{margin-bottom:8px}.card p{color:var(--muted)}
+.price{font-size:28px;font-weight:900;margin:14px 0}.price small{font-size:13px;color:var(--muted);font-weight:normal}
+.portfolio{display:grid;grid-template-columns:repeat(3,1fr);gap:14px}
+.work{height:260px;border-radius:14px;overflow:hidden;background:linear-gradient(145deg,#282828,#101010);border:1px solid var(--line);display:flex;align-items:end;padding:20px;position:relative}
+.work:before{content:"";position:absolute;inset:0;background:radial-gradient(circle at 70% 30%,rgba(215,25,32,.65),transparent 45%),linear-gradient(135deg,#222,#090909);opacity:.85}
+.work span{position:relative;font-weight:900;font-size:18px}
+.banner{background:linear-gradient(110deg,#3b090c,#a20f15);border-radius:20px;padding:45px;display:flex;justify-content:space-between;align-items:center;gap:25px}
+.banner h2{font-size:38px}.banner p{color:#f0cfd0}
+.contact{display:grid;grid-template-columns:1fr 1fr;gap:25px}.contact-box{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:30px}.contact-box p{color:var(--muted);margin:8px 0 18px}
+footer{border-top:1px solid var(--line);padding:30px 0;color:#888;font-size:14px}
+.mobile-menu{display:none}
+@media(max-width:800px){nav{display:none}.mobile-menu{display:block}.grid,.portfolio,.contact{grid-template-columns:1fr}.hero{min-height:620px}section{padding:65px 0}.banner{display:block}.banner .btn{margin-top:20px}h1{letter-spacing:-2px}.work{height:210px}}
+</style>
+</head>
+<body>
+<header>
+<div class="container nav">
+<a class="logo" href="#home">PHANUEL <span>BURI</span> DESIGN</a>
+<nav><a href="#services">Services</a><a href="#portfolio">Portfolio</a><a href="#pricing">Pricing</a><a href="#contact">Contact</a><a class="btn" href="https://wa.me/" target="_blank">WhatsApp</a></nav>
+<div class="mobile-menu">☰</div>
+</div>
+</header>
+
+<main id="home">
+<section class="hero">
+<div class="container hero-content">
+<div class="kicker">CREATIVE • PROFESSIONAL • PREMIUM</div>
+<h1>YOUR PHOTOS<br>DESERVE <span>MORE.</span></h1>
+<p>PHANUEL BURI DESIGN turns ordinary images and ideas into professional visual content — from photo retouching and enhancement to flyers, logos, music covers and promotional designs.</p>
+<div class="actions"><a class="btn" href="#contact">SEND YOUR PHOTO</a><a class="btn secondary" href="#portfolio">VIEW OUR WORK</a></div>
+</div>
+</section>
+
+<section id="services">
+<div class="container">
+<div class="section-head"><h2>What We Do</h2><p>Professional creative services designed to make your brand and photos stand out.</p></div>
+<div class="grid">
+<div class="card"><div class="icon">📸</div><h3>Photo Editing</h3><p>Skin retouching, lighting correction, color grading, background replacement and premium enhancement.</p></div>
+<div class="card"><div class="icon">🎨</div><h3>Graphic Design</h3><p>Professional flyers, posters, banners, business cards, social media designs and promotional artwork.</p></div>
+<div class="card"><div class="icon">✨</div><h3>Creative Retouching</h3><p>Luxury portrait finishing while keeping your natural identity, facial features and skin texture.</p></div>
+<div class="card"><div class="icon">🎵</div><h3>Music Covers</h3><p>Eye-catching cover artwork for singles, albums and music releases.</p></div>
+<div class="card"><div class="icon">🏷️</div><h3>Logo Design</h3><p>Distinctive brand identities designed to look professional across digital and print platforms.</p></div>
+<div class="card"><div class="icon">📱</div><h3>Social Media Ads</h3><p>Attention-grabbing promotional creatives optimized for WhatsApp, Instagram, Facebook and TikTok.</p></div>
+</div>
+</div>
+</section>
+
+<section id="portfolio">
+<div class="container">
+<div class="section-head"><h2>Selected Work</h2><p>Your real projects can replace these placeholders.</p></div>
+<div class="portfolio">
+<div class="work"><span>Portrait Retouching</span></div>
+<div class="work"><span>Luxury Flyer Design</span></div>
+<div class="work"><span>Before → After</span></div>
+<div class="work"><span>Music Cover</span></div>
+<div class="work"><span>Logo & Branding</span></div>
+<div class="work"><span>Promo Advertisement</span></div>
+</div>
+</div>
+</section>
+
+<section id="pricing">
+<div class="container">
+<div class="section-head"><h2>Simple Pricing</h2><p>Clear prices. Professional results. Custom jobs can be quoted separately.</p></div>
+<div class="grid">
+<div class="card"><h3>Photo Editing</h3><div class="price">500 FCFA <small>/ promo</small></div><p>Professional editing during promotional offers. Ask for the current offer.</p></div>
+<div class="card"><h3>Flyer / Poster</h3><div class="price">Custom</div><p>Price depends on the design complexity, number of revisions and delivery requirements.</p></div>
+<div class="card"><h3>Logo / Branding</h3><div class="price">Custom</div><p>Professional identity packages tailored to your business or project.</p></div>
+</div>
+</div>
+</section>
+
+<section>
+<div class="container">
+<div class="banner">
+<div><h2>Ready to upgrade your visuals?</h2><p>Send your photo or project details and let's create something professional.</p></div>
+<a class="btn" href="#contact">START A PROJECT</a>
+</div>
+</div>
+</section>
+
+<section id="contact">
+<div class="container">
+<div class="section-head"><h2>Let's Work Together</h2><p>Replace the contact details below with your official business information.</p></div>
+<div class="contact">
+<div class="contact-box"><h3>WhatsApp</h3><p>Fastest way to send photos, discuss your project and receive a quote.</p><a class="btn" href="https://wa.me/" target="_blank">MESSAGE ON WHATSAPP</a></div>
+<div class="contact-box"><h3>PHANUEL BURI DESIGN</h3><p>Email: your-email@example.com<br>Phone: +237 XXX XXX XXX<br>Location: Cameroon</p><a class="btn secondary" href="mailto:your-email@example.com">SEND EMAIL</a></div>
+</div>
+</div>
+</section>
+</main>
+
+<footer><div class="container">© 2026 PHANUEL BURI DESIGN. All rights reserved.</div></footer>
+</body>
+</html>
